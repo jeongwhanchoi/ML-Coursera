@@ -27,8 +27,8 @@ testValues = [0.01, 0.03, 0.1, 0.3,  1, 3, 10, 30];
 
 results = [];
 
-for loopC=1:8,
-    for loopSigma=1:8,
+for loopC=1:8
+    for loopSigma=1:8
       
       
       testC = testValues(loopC);
